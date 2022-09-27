@@ -1,0 +1,7 @@
+*.xcframework
+*.framework
+pods/
+DemoApp.xcodeproj/
+DemoApp.xcworkspace/
+*.java
+Android/

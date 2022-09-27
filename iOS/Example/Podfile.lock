@@ -1,0 +1,116 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Kingfisher (6.3.1)
+  - Masonry (1.1.0)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - SnapKit (5.6.0)
+  - SSZipArchive (2.4.3)
+  - Toast-Swift (5.0.1)
+  - TUIBarrage (1.0.0):
+    - Masonry
+    - MJExtension
+    - SDWebImage
+    - TUICore
+    - TXIMSDK_Plus_iOS
+  - TUIBeauty (1.0.0):
+    - Masonry
+    - SSZipArchive
+    - TUIBeauty/Default (= 1.0.0)
+    - TUICore
+  - TUIBeauty/Default (1.0.0):
+    - Masonry
+    - SSZipArchive
+    - TUICore
+    - XMagic (= 2.4.1.69.2)
+  - TUICore (6.6.3002):
+    - ReactiveObjC
+    - SDWebImage
+    - TXIMSDK_Plus_iOS (= 6.6.3002)
+  - TUIRoom/TRTC (1.0.0):
+    - Alamofire
+    - Kingfisher (<= 6.3.1)
+    - MJExtension
+    - MJRefresh
+    - SnapKit
+    - Toast-Swift
+    - TUIBarrage
+    - TUIBeauty
+    - TUICore
+    - TXAppBasic
+    - TXIMSDK_Plus_iOS (>= 5.7.1435)
+    - TXLiteAVSDK_TRTC
+  - TXAppBasic (1.0.0)
+  - TXIMSDK_Plus_iOS (6.6.3002)
+  - TXLiteAVSDK_TRTC (9.9.11217):
+    - TXLiteAVSDK_TRTC/TRTC (= 9.9.11217)
+  - TXLiteAVSDK_TRTC/ReplayKitExt (9.9.11217)
+  - TXLiteAVSDK_TRTC/TRTC (9.9.11217)
+  - XMagic (2.4.1.69.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - SnapKit
+  - Toast-Swift
+  - TUIBarrage (from `../TUIBarrage/`)
+  - TUIBeauty (from `../TUIBeauty/`)
+  - TUIRoom/TRTC (from `../`)
+  - TXAppBasic (from `../TXAppBasic/`)
+  - TXLiteAVSDK_TRTC (= 9.9.11217)
+  - TXLiteAVSDK_TRTC/ReplayKitExt (= 9.9.11217)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Kingfisher
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - SDWebImage
+    - SnapKit
+    - SSZipArchive
+    - Toast-Swift
+    - TUICore
+    - TXIMSDK_Plus_iOS
+    - TXLiteAVSDK_TRTC
+    - XMagic
+
+EXTERNAL SOURCES:
+  TUIBarrage:
+    :path: "../TUIBarrage/"
+  TUIBeauty:
+    :path: "../TUIBeauty/"
+  TUIRoom:
+    :path: "../"
+  TXAppBasic:
+    :path: "../TXAppBasic/"
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TUIBarrage: 3f4113016adbf98c9f30714b08720fdd900fd470
+  TUIBeauty: 093236ef95bb624b0aae1791068e18a467a82592
+  TUICore: 6d2708cc370f649303b3017b35baeb23df81283b
+  TUIRoom: 7052154df9313949559d446ce4d49b46559db4ce
+  TXAppBasic: f72fd658cb2cec20f0368158752b82226cb6cdec
+  TXIMSDK_Plus_iOS: b725bdb1521efd26e12e12506a9de736e8ad4a6e
+  TXLiteAVSDK_TRTC: 3c0721f34b3140b5d1e6ee183865f8c1383d2987
+  XMagic: bd3de34672b5da175cd2e70c86eac84741d8b296
+
+PODFILE CHECKSUM: 19d2505382e2d3becdfde057bc8acc1bf45b5603
+
+COCOAPODS: 1.11.3

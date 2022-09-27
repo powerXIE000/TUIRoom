@@ -1,0 +1,6 @@
+include ':tuibeauty'
+include ':tuibarrage'
+include ':app'
+include ':tuiroom'
+include ':tuibarrage'
+include ':debug'
